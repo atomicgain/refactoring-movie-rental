@@ -6,11 +6,11 @@ public class Movie {
     static final int HISTORY = 0;
     static final int NEW_RELEASE = 1;
 
-    private String title;
+    private String movieName;
     private int priceCode;
 
     Movie(String title, int priceCode) {
-        this.title = title;
+        this.movieName = title;
         this.priceCode = priceCode;
     }
 
@@ -19,6 +19,6 @@ public class Movie {
     }
 
     String getTitle() {
-        return title;
+        return movieName;
     }
 }
